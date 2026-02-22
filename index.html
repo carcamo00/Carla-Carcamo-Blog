@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Carla Carcamo Blog</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+
+<style>
+body{
+    font-family: Poppins, sans-serif;
+    margin: 0;
+    text-align: center;
+    /* BACKGROUND IMAGE */
+    background: url('background.webp') no-repeat center center fixed;
+    background-size: cover;
+    color: black;
+}
+
+/*  rgba(181, 65, 15, 0.68)BACKGROUND BEHIND PHOTOS */
+.top-area{
+    background:rgba(181, 65, 15, 0.68);
+    padding:20px 0;
+}
+
+/* PHOTOS */
+.top-photos{
+    display:flex;
+    justify-content:center;
+    gap:10px;
+}
+
+.top-photos img{
+    width:120px;
+    height:120px;
+    object-fit:cover;
+    border:2px solid black;
+    border-radius: 8px;
+}
+
+/* NAME */
+.name{
+    font-family: 'Playfair Display', serif;
+    font-size: 40px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    color: black;
+    margin-top: 10px;
+}
+
+/* MENU */
+.menu{
+    margin:10px;
+    font-weight:bold;
+}
+
+.menu span{
+    margin:0 10px;
+}
+
+/* SECTIONS */
+.section{
+    width:70%;
+    margin:20px auto;
+    text-align:left;
+}
+
+.title{
+    background: rgba(181, 65, 15, 0.68);
+    color: black;
+    padding: 10px;
+    font-family: 'Playfair Display', serif;
+    font-size: 30px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    border-radius: 8px 8px 0 0;
+}
+
+/* BOX COLORS MATCHING THEME */
+.box{
+    border:2px solid black;
+    padding:15px;
+    background: rgba(255, 255, 255, 0.24); /* White */
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    margin-bottom: 20px;
+}
+
+/* FRIEND LINK */
+.friend{
+    text-align:center;
+    margin-top:20px;
+}
+
+.friend img{
+    width: 180px;
+    border-radius: 10px;
+    border: 2px solid #413e3e;
+}
+</style>
+
+</head>
+
+<body>
+
+<!-- rgba(181, 65, 15, 0.68) AREA WITH PHOTOS + NAME -->
+<div class="top-area">
+
+<div class="top-photos">
+<img src="me1.jpg" alt="Photo 1" width="20px" height="30"/>
+<img src="me2.jpg" alt="Photo 2" width="20px" height="30"/>
+<img src="me3.jpg" alt="Photo 3" width="20px" height="30"/>
+<img src="me4.jpg" alt="Photo 4" width="20px" height="30"/>
+</div>
+
+<div class="name">
+Carla Caramo
+</div>
+
+<div class="menu">
+<span>About Me</span> |
+<span>Life Goals</span> |
+<span>Dream and Destinations</span>
+</div>
+
+</div>
+
+<!-- ABOUT ME -->
+<div class="section" id="about">
+<div class="title">About Me</div>
+<div class="box">
+    
+    <div class="flex">
+        
+        <div class="text-side">
+            <p><strong>Hello!</strong> My name is Carla. I am a Tourism student who enjoys learning about different cultures and how to create unforgettable travel experiences.</p>
+
+            <p><strong>My career goal:</strong> I want to become a professional in hospitality and tourism management. I am passionate about creativity, organization, and leadership.</p>
+
+            <p>I enjoy spending time with my friends, listening to music, and exploring new experiences. I like trying different activities, learning new skills, and discovering new places.</p>
+        </div>
+
+        <div class="photo-box">
+            <img src="eight.jpg" alt="Carla Carcamo Photo" style="width:20%; height:20%; object-fit:cover; border-radius:5px;">
+        </div>
+
+    </div> <!-- CLOSE flex -->
+
+</div> <!-- CLOSE box -->
+</div> <!-- CLOSE section -->
+    
+
+
+<!-- DREAM DESTINATIONS -->
+<div class="section">
+<div class="title">Dream Destinations</div>
+<div class="box">
+<p>Here are places I would love to visit and why:</p>
+
+<ul>
+<li>Paris – Art, museums and landmarks</li>
+<li>Tokyo – Technology, culture and food</li>
+<li>New York – City life and tourism attractions</li>
+</ul>
+</div>
+</div>
+
+<!-- FRIEND LINK -->
+<div class="section">
+<div class="title">Visit My Best Friend</div>
+<div class="box friend">
+<a href="friend.html">
+<img src="friend.jpg" alt="Friend Photo">
+</a>
+<p>Click the photo to visit my friend’s page</p>
+</div>
+</div>
+    
+    <!-- LIFE GOALS -->
+<div class="section">
+<div class="title">Life Goals</div>
+<div class="box">
+    <p><strong>Short Term Goals:</strong></p>
+        <ul>
+            <li>Graduate with excellent grades</li>
+            <li>Learn a new language</li>
+            <li>Gain internship experience</li>
+        </ul>
+    
+     <p><strong>Long Term Goals:</strong></p>
+<ol>
+<li>Build my own business</li>
+<li>Travel to different countries</li>
+<li>Achieve financial independence</li>
+</ol>
+</div>
+</div>
+
+    <!-- FOOTER -->
+    <footer>
+    Carla Carcamo - Web Design Class
+    </footer>
+</body>
+</html>
